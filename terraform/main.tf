@@ -177,7 +177,7 @@ resource "azurerm_linux_virtual_machine" "tj_vm" {
     version   = "latest"
   }
 
-  computer_name                   = "myvm"
+  computer_name                   = "tjvm"
   admin_username                  = var.adminusername
   disable_password_authentication = true
 
